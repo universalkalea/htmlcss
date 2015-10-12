@@ -1,1 +1,75 @@
-/* css */
+body{
+    margin:0px;
+    padding:0px;
+    background-image: url("http://dmhdwallpapers.com/wp-content/uploads/2015/03/City-Background-Hd-2015.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#header{
+    padding:0px;
+    background-color:gray;
+    color:white;
+    margin:50px 100px 0px 100px;
+}
+h1{
+    padding:20px 40px;
+    margin:0px;
+    font-family:Verdana;
+    font-size:60pt;
+}
+/*Section for navigation (links at the top of website)*/
+#nav, #nav a{
+    background-color:#ccc;  /*this sets the background color to grey*/
+    padding:10px 10px 10px 20px;
+}
+#nav a{
+    margin:0px;
+    color:black;
+    font-family: Arial;
+    text-decoration:none;  /*Takes the underline off of the links in the link section of the page*/
+    transition: background-color 2s /*Transitions the background color of the link back to grey*/
+}
+#nav a:hover{
+    background-color:#aaaaff;
+    color:white;
+    transition: color 2s; /*Transitions the text color of the links to white*/
+/*nav section ends*/
+}
+#content{
+    padding:20px 40px;
+    background-color:#eee;
+    margin:0px;
+    margin:0px 100px 0px 100px;
+}
+h2, h3{
+    font-family: Arial;
+}
+#footer{
+    padding:20px 40px;
+    background-color:black;
+    margin:0px;
+    color:white;
+    margin:0px 100px 50px 100px;
+}
+.spotlight{
+    background-color:pink;
+    padding:20px;
+}
+
+#footer a{
+    text-decoration:none;
+    color:white;
+}
+#footer a:hover{
+    color:grey;
+}
+/*#header h2{
+    background-color:#6666ff;
+    padding:9px;
+}
+#header h2:hover{
+    background-color:green;
+    transition: background-color 2s;
+    padding:9px;
+}
+*/
